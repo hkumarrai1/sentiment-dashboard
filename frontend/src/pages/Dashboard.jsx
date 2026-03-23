@@ -20,7 +20,7 @@ const Dashboard = () => {
       setLoading(true);
 
       const res = await axios.post(
-        "http://localhost:5000/api/upload",
+        "https://sentiment-dashboard-ub99.onrender.com/api/upload",
         formData,
       );
 
